@@ -1,0 +1,17 @@
+--- #YAML:1.0
+name: Tie-DataUUID
+version: 1.00
+author:
+  - |-
+    Written by Mark Fowler E<lt>mark@twoshortplanks.comE<gt>
+abstract: tie interface to Data::UUID;
+license: perl
+requires:
+  Data::UUID: 0
+build_requires:
+  Test::More: 0
+provides:
+  Tie::DataUUID:
+    file: lib/Tie/DataUUID.pm
+    version: 1.00
+generated_by: Module::Build version 0.24
